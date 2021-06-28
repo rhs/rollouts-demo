@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   annotations:
-    getambassador.io/rolloutId: 404be032-8476-4153-a3e2-472e0ae2e4a2
+    getambassador.io/rolloutId: e0857085-7b5b-4df6-83af-73d5425db050
   creationTimestamp: null
   name: rollout-demo
 spec:
@@ -17,34 +17,34 @@ spec:
       steps:
       - setWeight: 10
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 20
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 30
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 40
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 50
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 60
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 70
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 80
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 90
       - pause:
-          duration: 12
+          duration: 1
       - setWeight: 100
       - pause:
-          duration: 12
+          duration: 1
       trafficRouting:
         ambassador:
           mappings:
